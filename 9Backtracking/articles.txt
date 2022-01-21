@@ -1,0 +1,35 @@
+How to generate all permutations =>
+	https://www.interviewbit.com/problems/permutations/
+
+How to generate all combinations =>
+	https://www.interviewbit.com/problems/subset/
+
+Standard Library functions for permutations =>
+	C++ 	https://www.geeksforgeeks.org/stdnext_permutation-prev_permutation-c/
+	Python 	IterTools
+
+
+Time complexity of recursion - fibonacci sequence =>
+	https://www.youtube.com/watch?v=pqivnzmSbq4 (mycodeschool video)
+
+Space complexity of recursion - fibonacci sequence =>
+	https://www.youtube.com/watch?v=dxyYP3BSdcQ ((mycodeschool video))
+
+Best way to print list of lists in CPP =>
+	https://stackoverflow.com/questions/46653414/printing-a-list-of-lists-c-stl-list
+
+	void ListofLists::dump() /* const */
+	{
+	    for ( const auto &inner_list : L )
+	    {
+	        for ( const auto &item : inner_list )
+	        {
+	            cout << item << "  ";
+	        } 
+	        cout << endl << "End" << endl;
+	    }
+	}
+
+
+How to pass a variable by reference in Python ****** IMPORTANT/CRITICAL *******
+	https://stackoverflow.com/questions/986006/how-do-i-pass-a-variable-by-reference

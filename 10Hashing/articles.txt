@@ -1,0 +1,22 @@
+"~" Bitwise complement of number =>
+	https://stackoverflow.com/questions/791328/how-does-the-bitwise-complement-operator-tilde-work
+
+Clone a List with next and random pointer 
+	Problem => https://www.interviewbit.com/problems/copy-list/
+
+	Solution using O(N) Time complexity and O(N) space complexity =>
+		https://www.geeksforgeeks.org/clone-linked-list-next-arbit-pointer-set-2/
+
+	Solution using O(N) Time complexity and O(1) space complexity =>
+		https://www.geeksforgeeks.org/clone-linked-list-next-random-pointer-o1-space/
+
+
+Representing the fraction of two numbers in the string format
+	https://www.geeksforgeeks.org/represent-the-fraction-of-two-numbers-in-the-string-format/
+
+
+Insert function in string 
+	https://www.geeksforgeeks.org/stdstringinsert-in-c/
+
+tan inverse function in cpp
+	https://www.programiz.com/cpp-programming/library-function/cmath/atan

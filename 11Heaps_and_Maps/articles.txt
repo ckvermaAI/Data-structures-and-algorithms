@@ -1,0 +1,30 @@
+1. C++ Standard Template Library provides maps and sets which are implemented > internally using balanced red black trees. Sets are very much similar.
+	https://www.interviewbit.com/tutorial/heap-and-map-implementation-details/#heap-and-map-implementation-details
+
+2. Priority queue in cpp
+	https://www.geeksforgeeks.org/priority-queue-in-cpp-stl/
+
+3. std::greater in C++ with Examples
+	https://www.geeksforgeeks.org/stdgreater-in-c-with-examples/
+
+4. Repeating key == Multimap 
+	https://www.geeksforgeeks.org/multimap-associative-containers-the-c-standard-template-library-stl/
+
+5. Reverse iterator in cpp
+	https://www.geeksforgeeks.org/vector-rbegin-and-rend-function-in-c-stl/
+
+6. upper_bound and lower_bound in cpp
+	LowerBound => https://www.geeksforgeeks.org/lower_bound-in-cpp/
+	LowerBound => https://www.geeksforgeeks.org/upper_bound-in-cpp/
+
+7. log2() function in cpp => https://www.geeksforgeeks.org/log2-function-in-c-with-examples/
+
+8. we cannot iterate over the priority queue
+	https://stackoverflow.com/questions/4484767/how-to-iterate-over-a-priority-queue
+
+Ways to form a max Heap =>
+	https://www.geeksforgeeks.org/number-ways-form-heap-n-distinct-integers/
+
+
+Find the Kth largest/smallest element in linear time complexity 
+	https://www.geeksforgeeks.org/kth-smallestlargest-element-unsorted-array-set-3-worst-case-linear-time/
