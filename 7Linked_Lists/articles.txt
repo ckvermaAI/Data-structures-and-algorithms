@@ -1,0 +1,43 @@
+1. Write a function to get the intersection point of two Linked Lists
+	https://www.geeksforgeeks.org/write-a-function-to-get-the-intersection-point-of-two-linked-lists/
+
+
+2. Passing Reference to a Pointer in C++
+	https://www.geeksforgeeks.org/passing-reference-to-a-pointer-in-c/
+
+3. Sorting in Linked lists =>
+	Insertion sort 
+		https://www.interviewbit.com/problems/insertion-sort-list/
+
+	Merge Sort (why Merge Sort is preferred in case of linked list when compared to Quick sort & Heap sort)
+		https://www.geeksforgeeks.org/merge-sort-for-linked-list/
+
+
+4.  Floyd’s slow and fast pointers =>
+
+	https://www.geeksforgeeks.org/how-does-floyds-slow-and-fast-pointers-approach-work/	
+	https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/
+	https://www.geeksforgeeks.org/detect-and-remove-loop-in-a-linked-list/
+
+5. Clone a linked list with next and random pointer
+
+	https://www.geeksforgeeks.org/a-linked-list-with-next-and-arbit-pointer/
+		Solution1 =>
+			https://www.geeksforgeeks.org/clone-linked-list-next-arbit-pointer-set-2/
+		Solution2 =>
+			https://www.geeksforgeeks.org/clone-linked-list-next-random-pointer-o1-space/
+
+6. Leet Code article - summary of types of problems in linked list
+	https://www.interviewbit.com/courses/programming/topics/linked-lists
+
+Why we dynamically create new Node for linked list?
+
+	-> we dynamically allocate memory when we want to that the newly created node will exist in memory unless we expllicity delete this memory. 
+	Doubly Linked List - Implementation in C/C++		--- My Code School    very imp.
+	https://www.youtube.com/watch?v=VOQNf1VxU3Q&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=13
+
+
+7. Implement Double linked list
+	https://www.interviewbit.com/problems/merge-k-sorted-lists/
+	-> Traverse from begining to end - using head pointer
+	-> Traverse from end to begining - using tail pointer

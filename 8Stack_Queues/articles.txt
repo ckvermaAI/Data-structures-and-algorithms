@@ -1,0 +1,36 @@
+Double Ended Queue in C++ STL
+	https://www.geeksforgeeks.org/deque-cpp-stl/
+
+Queue using Stacks =>
+	https://www.geeksforgeeks.org/queue-using-stacks/
+
+
+Implement Stack using Queues =>
+	https://www.geeksforgeeks.org/implement-stack-using-queue/
+
+
+Reverse Polish notation =>
+	https://en.wikipedia.org/wiki/Reverse_Polish_notation
+	https://www.interviewbit.com/problems/evaluate-expression/
+
+
+Largest rectangular area in a histogram =>
+	https://www.interviewbit.com/problems/largest-rectangle-in-histogram/
+
+	Time complexity = O(Nlog(N)), using Segment Tree 
+	https://www.geeksforgeeks.org/largest-rectangular-area-in-a-histogram-set-1/
+
+	Time complexity = O(N), using Stacks
+	https://www.geeksforgeeks.org/largest-rectangle-under-histogram/
+
+
+My Code School =>
+	Infix, PostFix, Prefix =>
+		https://www.youtube.com/watch?v=jos1Flt21is&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=19
+	Evaluation of Prefix and Postfix expressions using stack =>
+	https://www.youtube.com/watch?v=MeRb_1bddWg&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=20
+
+	
+Segment Trees =>
+	https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/
+
