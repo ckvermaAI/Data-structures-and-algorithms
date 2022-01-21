@@ -1,0 +1,150 @@
+1. Any numbers can be represented by combination of numbers which are power of 2
+	19 = 16 +  2+ 1
+	132 = 128 + 4
+	we can relate this fact to binary representation of numbers
+
+
+2. A^B (exclusive A or B) ==  ( A!=B )   
+	left will be true when only of is true 
+	right will be true when A is not equal to B
+
+3. Whether number is odd or even 
+	x & 1 == x % 2
+
+3. Functions of GCC compiler =>
+	https://www.geeksforgeeks.org/builtin-functions-gcc-compiler/
+
+4. Errichto 
+	Bitwise Operations tutorial #1 | XOR, Shift, Subsets :
+	https://www.youtube.com/watch?v=xXKL9YBWgCY&list=PLl0KD3g-oDOHpWRyyGBUJ9jmul0lUOD80
+	C++ Bitsets in Competitive Programming :
+	https://www.youtube.com/watch?v=jqJ5s077OKo
+
+
+5. Know your data type: int =>
+	https://www.youtube.com/watch?v=zxb8DvLUqcM
+
+	How to store negative numbers =>
+	we can use the most significant bit to store the sign of the number but in this way we have 2 limitations. for example 
+	000		+0
+	001 	+1
+	010		+2
+	011		+3
+	100		-0
+	101		-1	
+	110		-2
+	111		-3
+
+	using this way we can store [-2^(n-1) - 1 to 2^(n-1)-1 ]
+
+	here we have 2 representation for 0 and it will difficult to perform binary arithemtic operations on binary numbers ( 0+0=0 , 1+0 or 0+1 = 1 and 1+1=10 )
+
+		001 	+1
+	+   110		-1
+	=   111		-2
+
+	so, we use different way to encode negative numbers in binary which is called "2's complement".
+	Basically we can find "1's complement" of a number by simply inverting all the bits. 
+	given number 						001			+1
+
+	1's complement						110			
+	add one to 1's complement			001
+
+	2's complement						111
+
+	-(given number)						111			-1
+
+
+										001 		+1
+										111			-1
+	now add +1 and -1					000
+	because we are using only 3 bits hence the last 1 will overflow while adding 
+
+
+	using 2's complement our number we look like this,
+
+	000		+0 
+	001		+1
+	110		+2
+	111		+3
+	100		-4
+	101		-3
+	110		-2
+	111		-1
+
+	using this way we can store [-2^(n-1) to 2^(n-1)-1 ], one extra number from previous encoding because here representation for 0 is only one.
+
+
+6. Addition & Bitwise OR =>
+	https://stackoverflow.com/questions/7334832/are-addition-and-bitwise-or-the-same-in-this-case
+
+	as long as for two numbers num1 and num2 applies num1 & num2 == 0, then follows:
+
+	num1 + num2 == num1 | num2
+
+	the reason for this is, that addition is basically a bitwise XOR, plus carry bit. But as long as there are no carry bits (num1 & num2 == 0) then addition boils down to bitwise XOR, which is (again because of num1 & num2 == 0) in this case logically equivalent to a bitwise OR
+
+
+
+7. Number of times a element of array appears in subarrays =>
+	https://www.interviewbit.com/problems/xor-ing-the-subarrays/
+
+	Just think for each element how many subarrays it will contribute its value to.
+
+	Like any element ith index in array A will occur (i + 1) * (N - i) times.
+
+
+8. Maximum XOR of Two Numbers in an Array =>
+	https://www.geeksforgeeks.org/maximum-xor-of-two-numbers-in-an-array/
+
+	https://www.geeksforgeeks.org/maximum-value-pair-array/
+
+
+
+__builtin_popcount =>
+
+		__builtin_popcount is a built in function of GCC compiler not of any header file of C++.
+
+		__builtin_popcount(int) function is used to count the number of one’s(set bits) in an integer.
+
+		prototype of __builtin_popcount is as follows
+
+		int __builtin_popcount(int N)
+
+		ex- int n=__builtin_popcount(4);
+
+		cout<<n;
+
+		Output: 1
+
+		If N is negative , it will still give correct answer (as negative numbers are stored in memory in 2’s compliment form).
+
+		You can also make your own function to count number of set bits
+
+		int count_setbits(int N)
+
+		{ int cnt=0;
+
+		while(N>0)
+
+		{
+
+		cnt+=(N&1);
+
+		N=N>>1;
+
+		}
+
+		return cnt;
+
+		}
+
+		But the above function will work fine only for positive numbers.
+
+
+9. WORD SIZE 
+	Word "size" refers to the amount of data a CPU's internal data registers can hold and process at one time. Modern desktop computers have 64-bit words. Computers embedded in appliances and consumer products have word sizes of 8, 16 or 32 bits.
+
+
+10. Decimal to floating point representation
+	https://www.youtube.com/watch?v=8afbTaA-gOQ

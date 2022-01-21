@@ -1,0 +1,51 @@
+
+Two pointers stream of errichto =>
+https://www.youtube.com/watch?v=QwN-weNSrAg&t=456s
+
+	https://leetcode.com/problems/minimum-window-substring/discuss/26808/Here-is-a-10-line-template-that-can-solve-most-'substring'-problems
+
+	https://codeforces.com/blog/entry/60737
+
+	https://codeforces.com/blog/entry/60737
+
+	https://www.ascii-code.com/
+
+	https://www.tutorialspoint.com/what-is-a-parity-bit
+
+
+Longest Palindromic string =>
+	Question =>
+	https://www.interviewbit.com/problems/longest-palindromic-substring/
+
+	dynamic programming (longest-common-substring) =>
+	https://www.geeksforgeeks.org/longest-common-substring-dp-29/
+
+	longest-palindrome-substring articles =>
+	1. https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/
+	2. https://www.geeksforgeeks.org/longest-palindromic-substring-set-2/
+
+	Manacher’s Algorithm =>
+	https://www.geeksforgeeks.org/manachers-algorithm-linear-time-longest-palindromic-substring-part-1/
+
+
+Roman Numerals =>
+	https://projecteuler.net/about=roman_numerals
+
+
+Big Integers Libraries =>
+	in CPP and python
+
+
+string::npos in cpp =>
+	https://www.geeksforgeeks.org/stringnpos-in-c-with-examples/
+
+string::replace in cpp =>
+	https://www.geeksforgeeks.org/stdstringreplace-stdstringreplace_if-c/
+
+
+Understand =>
+	Hexadecimal Numbers notation
+	Regex Expressions
+	atoi function in cpp
+	String Stream
+

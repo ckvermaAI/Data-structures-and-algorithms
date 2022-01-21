@@ -1,0 +1,69 @@
+One thing that matters in two pointers questions(techinque) is how
+    should we traverse the pointers and will depends on
+    1) what is our input (sorted in ascending order, descending order)
+    2) what is our query (we want the difference of two elements equal to 
+        a target, sum of two values equal to a target, etc) and this will affect
+       our decision about when to increment the pointers
+    
+
+
+https://www.interviewbit.com/tutorial/two-pointers/
+
+Given a sorted array A (Sorted in ascending order), find if there exists 2 integer
+A[i] and A[j] such that A[i]+A[j] = target and i!=j
+
+
+# SOLUTION1
+Now, the Naive solution would be
+    
+    for(int i=0;i<A.size();++i){
+        for(int j=0;j<A.size();++j){
+            if(i!=j and A[i]+A[j]==0)   return true;
+            if(A[i]+A[j]>0) break;
+        }
+    }
+
+    # Optimisation 1
+    we use one optimisation here, clearly when i and j will increase A[i] & A[j] also
+    increase. Thus if we already have A[i]+A[j] > 0 then we cannot find solution for
+    same i by incrementing j.
+
+
+# SOLUTION2
+
+    # Optimisation 2
+    As i increases A[i] also increases so if we want to find the solution for a 
+    particular i we need to look to elements in decreasing order.
+
+    for(int i=0;i<A.size();++i){
+        for(int j=A.size()-1;j>=0;--j){
+            if(i!=j and A[i]+A[j]==0)   return true;
+            if(A[i]+A[j]<0)     break;
+            // because for a "i" j is decreasing so is A[j]
+        }
+    }
+
+
+# SOLUTION3
+
+    # Optimisation 3
+    If A[i] + A[j] > 0
+    Then A[i+1] + A[j] > 0 as A[i+1] > A[i]
+    This means if we have tried "J" for "i" then moving to i+1 we should only 
+    try values of j<J
+
+    int j= A.size()-1;
+    for(int i=0;i<A.size();++i){
+        for(;j>=0;--j){
+            if(i!=j and A[i]+A[j]==0)   return true;
+            if(A[i]+A[j]<0)     break;
+            // because for a "i" j is decreasing so is A[j]
+        }
+    }
+
+
+for clear understanding, check "Pointers1.jpg" and "Pointers2.jpg"
+
+
+Similarly we can find two elements with difference equal to target value there we have 
+to increase both the pointers in right direction
