@@ -1,0 +1,37 @@
+1. Euclidean algorithms (Basic and Extended) =>
+	https://www.geeksforgeeks.org/euclidean-algorithms-basic-and-extended/
+
+2. Modular multiplicative inverse
+	https://www.geeksforgeeks.org/multiplicative-inverse-under-modulo-m/
+
+3. Prefix Sum Array
+	https://www.geeksforgeeks.org/prefix-sum-array-implementation-applications-competitive-programming/
+
+4. sum of squares of numbers
+	https://www.cuemath.com/algebra/sum-of-squares/
+
+5. Time complexity of sieve of eratosthenes & Psuedo-polynomial algorithm
+	https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes  = O(N* loglog(N))
+	https://www.geeksforgeeks.org/check-if-is-possible-to-get-given-sum-from-a-given-set-of-elements/
+
+6. Time complexity of Euclid's Theorem
+	https://en.wikipedia.org/wiki/Euclidean_algorithm#Algorithmic_efficiency = O(log(smaller number))
+
+Understand Bitmasking => 
+
+5. Bitwise Operations tutorial #1 | XOR, Shift, Subsets => 
+	1. https://www.youtube.com/watch?v=xXKL9YBWgCY&list=PLl0KD3g-oDOHpWRyyGBUJ9jmul0lUOD80
+
+	2. vlog for the above video -> https://codeforces.com/blog/entry/73490
+
+
+6. C++ Bitsets in Competitive Programming
+	https://www.youtube.com/watch?v=jqJ5s077OKo&t=15s
+
+
+7. Bitmasking and dynamic programming 
+
+
+
+
+

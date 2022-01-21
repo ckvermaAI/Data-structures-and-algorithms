@@ -1,0 +1,47 @@
+Implement =>
+A) all the sorting algorithms
+	1. Quick sort 
+	2. bubble sort
+	3. Merge sort
+	4. Insertion sort 
+	5. Selection sort 
+	6. Heap sort 
+	7. Radix sort 
+	8. Bucket sort
+	9. count Sort
+
+B) Time complexity equations 
+
+
+
+
+Understand Articles =>
+
+1. How to apply Bucketing in these problems 
+	https://www.interviewbit.com/problems/balance-array/
+	https://www.interviewbit.com/problems/find-duplicate-in-array/
+	https://www.interviewbit.com/problems/maximum-consecutive-gap/
+
+
+2. difference between emplace_back & push_back
+	https://www.geeksforgeeks.org/push_back-vs-emplace_back-in-cpp-stl-vectors/
+
+
+3. Kadane Algorithm =>
+	https://www.youtube.com/watch?v=umt7t1_X8Rc
+	
+
+4. Square Root Decomposition, Mo's Algorithm =>
+	https://www.youtube.com/watch?v=BJhzd_VG61k
+
+
+5. Upper Bound and Lower Bound
+	https://www.cplusplus.com/reference/algorithm/lower_bound/
+	https://www.cplusplus.com/reference/algorithm/upper_bound/
+	https://www.geeksforgeeks.org/implementing-upper_bound-and-lower_bound-for-ordered-set-in-c/
+
+6. why QuickSort is practically fast algorithm?
+	https://stackoverflow.com/questions/2467751/quicksort-vs-heapsort
+	
+Weak topic =>
+	Bucketing
